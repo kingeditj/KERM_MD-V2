@@ -18,7 +18,7 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vafn6hc7DAX3
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/40ffc2a288542560c887c.jpg";
 global.devs = "https://wa.me/237650564445 , https://wa.me/237656520674";
-global.sudo = process.env.SUDO || "237650564445";
+global.sudo = process.env.SUDO || "";
 global.owner = process.env.OWNER_NUMBER || "237656520674";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
@@ -32,7 +32,7 @@ global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
-global.read_status = process.env.AUTO_READ_STATUS || "false";
+global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
@@ -42,7 +42,7 @@ global.scan = "https://kgtech-v2-session.onrender.com";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "PUT YOUR SESSION HERE"
+  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYUVSY2xCcUFzTzFyRTd6OTAwb0dCUnNLeVdqMjZBTzk0d2dpZ0lBZk4zOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiM3lBeHB0SUEyeWExZ08zWUNSVGhGRmlJTnlWUTBaSkR3T1hJeXZWbzVScz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJhQ3hwclJMcERVbE1tRFhCRmRnMkhRYVBuN0RnK25HbkxJMTl3bGc4Q0VFPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJKb2NabHBSQ216cUNWNEttNDRTQjZRRThzcFdheGlSUUwyZXJOSmRoUTFJPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik9KbHpKbVNtamlyanNraDRWWnBiS1lHVE00NVIrL1VCMEx5ZTFBZHU2V009In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InducHlJaDJWanA1aVIzYW1VdWU5MHpKWUJhR0dCWU9xZTBMRWxwTlBuems9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMk5MZWpJSXdQWWhaeUtTc1FwdFRXclZtai8rMWhLYlR2UnZFakt2aGFWbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic3FvcE5LQkFKd0xRRGszekFxWjhSandRYUlsQXJXdW9iZGN2THNHeldWQT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlloVDAzdTNUMVNUQUxMTnNvRnk0VkMvUWd4bXhsYkl2cXlnUDN2dzZZWWppR0dQNDYzQUVBRlQrY1hYWndIb1NvcVFqT0ZWdERKWmRPSk04VzBOOUJnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTU5LCJhZHZTZWNyZXRLZXkiOiJHbXBKWVdIWkRGbWxLMVN3b210MGt6OHJRQ1NpcnlWM0JwMWpwMTQ4NENBPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJheEtCMXFWOVQ1NlFveGViVXJ4YmlRIiwicGhvbmVJZCI6ImEwMzUzNGQ1LTZhOGUtNDI3NC1hYmM4LWE4MzkyMjBmZDAwMyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIvVjFSRFBQTCtlWXpCUGRqcjhkV0RJbk5lU0k9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOXcwOGlGa1lLazN1NE5lRmx5QUkvYmxMNmZZPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlI2RVhaOEtXIiwibWUiOnsiaWQiOiI1MDkzMjkwNTE3MzoxNkBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDSmVvc05nREVJQzVzTGdHR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiWG1YakVJbElGWDFzK3gxUmdrd0hnMjNZd1p0cjRlK3lSa2E3ajhTWkpUaz0iLCJhY2NvdW50U2lnbmF0dXJlIjoiWG1uYWJ1MkdwMDc0MU1vYmpUbEg5OUoyK2Ruek9KbkQrSnlPdVVGSjVId2FWVDNJeitCdGRFREVDVHBYcTJsdzVHNE1mNHdPS0tWY0NJTjRiZVRVQ0E9PSIsImRldmljZVNpZ25hdHVyZSI6InMrS3pIVHp3V1pBTXY3TmxqM1ptaDAxNWFiU2xHVzAySHdHV3NINWhLbHBRalloSXFqWDEyWXo3YnBraVR1UnRtbFFjNnZReGpqbEZKMUkwNllENENBPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiNTA5MzI5MDUxNzM6MTZAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCVjVsNHhDSlNCVjliUHNkVVlKTUI0TnQyTUdiYStIdnNrWkd1NC9FbVNVNSJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyODg0Njk4OX0="
 module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
